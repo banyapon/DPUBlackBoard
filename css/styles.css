@@ -138,11 +138,15 @@ ul {
         background-color: rgb(201, 71, 123, 0.9);
         color: #fff;
         padding-bottom: 25px;
+        border-radius: 8px;
+        margin-bottom: 15px;
     }
 
     .neededMobile {
         background-color: rgb(135, 26, 225, 0.8);
         color: #fff;
+        border-radius: 8px;
+        margin-bottom: 15px;
     }
 
     #likeInput {
@@ -210,4 +214,9 @@ ul {
     .fixed-bottom-button:hover {
         background-color: #0056b3;
     }
+
+    input::placeholder {
+        color: rgb(255, 255, 255);
+        opacity: 0.5;
+      }
 }
