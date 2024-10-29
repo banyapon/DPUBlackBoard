@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DPU Online BlackBoard System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&display=swap"
+        rel="stylesheet">
+    <script src="../js/config.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="background">
+    <div class="center"><img src="../images/logo.png" alt="Logo" class="logo"></div>
+    <h1>I Like & I Need</h1>
+    <div class="container">
+        <div class="row likedMobile">
+            <div class="max-web">
+                <h2><i class="fas fa-thumbs-up"></i> I LIKE!</h2>
+                <input type="text" id="likeInput" placeholder="I Like!">
+                <button id="addButtonLike">ส่งข้อความ</button>
+            </div>
+        </div>
+        <div class="row neededMobile">
+            <div class="max-web">
+                <h2><i class="fas fa-heart"></i> I NEED!</h2>
+                <input type="text" id="needInput" placeholder="I Need!">
+                <button id="addButtonNeed">ส่งข้อความ</button>
+            </div>
+        </div>
+    </div>
+
+    <ul style="display:none;" id="likeList"></ul>
+    <ul style="display:none;" id="needList"></ul>
+
+    <a href="comments.html" class="fixed-bottom-button">ดูรายการคอมเมนต์</a>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js"></script>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
