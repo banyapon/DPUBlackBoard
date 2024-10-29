@@ -317,4 +317,51 @@ ul {
         transform: translateY(20px);
         animation: bubble 0.6s ease forwards;
     }
+
+    /* สไตล์ Post-it */
+    .post-it {
+        position: absolute;
+        width: 150px;
+        padding: 10px;
+        background-color: #ffef96;
+        border-radius: 8px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        font-size: 1em;
+        color: #333;
+        transform: rotate(calc(-5deg + 10deg * random()));
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        animation: float 5s ease-in-out infinite alternate;
+    }
+
+    /* Animation float effect */
+    @keyframes float {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(-10px);
+        }
+    }
+
+    /* สไตล์ของ Lightbox Alert */
+    .alert-lightbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 8px;
+        display: none;
+        width: 80%;
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .alert-lightbox h3 {
+        font-size: 1.2em;
+    }
 }
