@@ -24,20 +24,26 @@
 </head>
 
 <body class="background">
-    <div class="center"><img src="images/logo.png" alt="Logo" class="logo"></div>
-    <div class="container">
-      <div class="row">
-        
-        <div class="col">
-          <h2><i class="fas fa-thumbs-up"></i> I LIKE!</h2>
-          <ul class="whiteboard likeli" id="likeList"></ul>
-        </div>
-        <div class="col">
-          <h2><i class="fas fa-heart"></i> I NEED!</h2>
-          <ul class="whiteboard needli" id="needList"></ul>
-        </div>
+  <div class="center"><img src="images/logo.png" alt="Logo" class="logo"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col">
+        <h2><i class="fas fa-thumbs-up"></i> I LIKE!</h2>
+        <ul class="whiteboard likeli" id="likeList"></ul>
+      </div>
+      <div class="col">
+        <h2><i class="fas fa-heart"></i> I NEED!</h2>
+        <ul class="whiteboard needli" id="needList"></ul>
       </div>
     </div>
+  </div>
+  <a href="overview.html" class="fixed-bottom-button">Overview Map</a>
+  <!-- Lightbox Alert สำหรับแสดงข้อความใหม่ -->
+  <div class="alert-lightbox" id="alertLightbox">
+    <p>มีข้อความใหม่!</p>
+    <h2 id="alertMessage" class="blackText"></h2>
+  </div>
   <script src="js/main.js"></script>
 </body>
 
