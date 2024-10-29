@@ -169,6 +169,7 @@ ul {
         border: 0;
         padding: 2%;
         margin-bottom: 10px;
+        border-radius: 8px;
     }
 
     #needInput {
@@ -191,6 +192,7 @@ ul {
         border: 0;
         padding: 2%;
         margin-bottom: 10px;
+        border-radius: 8px;
     }
 
     .fixed-bottom-button {
