@@ -183,6 +183,7 @@ ul {
 /* เอฟเฟกต์เมื่อ hover ปุ่ม */
 .fixed-bottom-button:hover {
     background-color: #0056b3;
+    color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
